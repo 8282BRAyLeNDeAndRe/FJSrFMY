@@ -3,5 +3,4 @@
     "src": "src",
     "include": ["src/**", "built/local/**"],
     "exclude": ["**/node_modules/**"],
-    "mergeAsync": true
 }

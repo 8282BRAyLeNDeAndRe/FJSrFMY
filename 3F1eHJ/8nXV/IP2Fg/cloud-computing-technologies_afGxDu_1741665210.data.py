@@ -39,7 +39,6 @@ X = scaler.fit_transform(X)
 
 print "Feature space holds %d observations and %d features" % X.shape
 print "Unique target labels:", np.unique(y)
-
 from sklearn.cross_validation import KFold
 
 def run_cv(X,y,clf_class,**kwargs):

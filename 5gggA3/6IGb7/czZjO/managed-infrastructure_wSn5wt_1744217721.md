@@ -15,7 +15,6 @@ bump-major: ## Bump the major version number for AppScale
 
 bump-minor: ## Bump the minor version number for AppScale
 	util/bump_version.sh minor
-
 bump-patch: ## Bump the patch version number for AppScale
 	util/bump_version.sh patch
 

@@ -136,7 +136,6 @@ ggplot(counts,aes(x='pred_prob',y='true_prob',size='count')) + \
     stat_function(fun = lambda x: x, color='red') + \
     stat_function(fun = lambda x: baseline, color='green') + \
     xlim(-0.05,  1.05) + ylim(-0.05,1.05) + \
-    ggtitle("Random Forest") + \
     xlab("Predicted probability") + ylab("Relative frequency of outcome")
     
 from churn_measurements import calibration, discrimination
